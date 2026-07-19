@@ -1,0 +1,47 @@
+{
+  "students": [
+    {
+      "student_id": "S001",
+      "name": "Charmi",
+      "program": "B.Tech Computer Science",
+      "year": 3,
+      "interests": ["backend development", "women's safety technology", "full-stack web apps"]
+    },
+    {
+      "student_id": "S002",
+      "name": "Arjun",
+      "program": "B.Tech Computer Science",
+      "year": 2,
+      "interests": ["machine learning", "computer vision"]
+    }
+  ],
+  "grades": [
+    {"student_id": "S001", "subject": "Data Structures & Algorithms", "score": 88, "term": "Sem4"},
+    {"student_id": "S001", "subject": "Database Management Systems", "score": 91, "term": "Sem4"},
+    {"student_id": "S001", "subject": "Operating Systems", "score": 62, "term": "Sem4"},
+    {"student_id": "S001", "subject": "Computer Networks", "score": 58, "term": "Sem4"},
+    {"student_id": "S001", "subject": "Web Technologies", "score": 94, "term": "Sem4"},
+
+    {"student_id": "S002", "subject": "Data Structures & Algorithms", "score": 72, "term": "Sem3"},
+    {"student_id": "S002", "subject": "Linear Algebra", "score": 65, "term": "Sem3"},
+    {"student_id": "S002", "subject": "Probability & Statistics", "score": 70, "term": "Sem3"},
+    {"student_id": "S002", "subject": "Python Programming", "score": 89, "term": "Sem3"}
+  ],
+  "resources": [
+    {"resource_id": "R001", "subject": "Operating Systems", "title": "OSTEP: Operating Systems - Three Easy Pieces", "type": "book (free online)", "difficulty": "medium", "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/"},
+    {"resource_id": "R002", "subject": "Operating Systems", "title": "Neso Academy - OS Playlist", "type": "video course", "difficulty": "easy", "url": "https://www.youtube.com/c/nesoacademy"},
+    {"resource_id": "R003", "subject": "Computer Networks", "title": "Computer Networking: A Top-Down Approach - free chapters", "type": "book", "difficulty": "medium", "url": "https://gaia.cs.umass.edu/kurose_ross/"},
+    {"resource_id": "R004", "subject": "Computer Networks", "title": "Practice: Cisco Packet Tracer labs", "type": "hands-on lab", "difficulty": "medium", "url": "https://www.netacad.com/courses/packet-tracer"},
+    {"resource_id": "R005", "subject": "Web Technologies", "title": "MDN Web Docs - Full Stack path", "type": "docs", "difficulty": "medium", "url": "https://developer.mozilla.org/"},
+    {"resource_id": "R006", "subject": "Data Structures & Algorithms", "title": "NeetCode 150", "type": "practice set", "difficulty": "medium", "url": "https://neetcode.io/"},
+    {"resource_id": "R007", "subject": "Linear Algebra", "title": "3Blue1Brown - Essence of Linear Algebra", "type": "video course", "difficulty": "easy", "url": "https://www.3blue1brown.com/topics/linear-algebra"},
+    {"resource_id": "R008", "subject": "Probability & Statistics", "title": "Khan Academy - Statistics & Probability", "type": "video course", "difficulty": "easy", "url": "https://www.khanacademy.org/math/statistics-probability"}
+  ],
+  "careers": [
+    {"career_id": "C001", "title": "Backend Engineer", "related_subjects": ["Data Structures & Algorithms", "Database Management Systems", "Operating Systems", "Computer Networks"], "skills": ["APIs", "databases", "system design"]},
+    {"career_id": "C002", "title": "Full-Stack Developer", "related_subjects": ["Web Technologies", "Database Management Systems", "Data Structures & Algorithms"], "skills": ["frontend", "backend", "deployment"]},
+    {"career_id": "C003", "title": "Site Reliability / Systems Engineer", "related_subjects": ["Operating Systems", "Computer Networks"], "skills": ["Linux", "networking", "monitoring"]},
+    {"career_id": "C004", "title": "Machine Learning Engineer", "related_subjects": ["Linear Algebra", "Probability & Statistics", "Python Programming"], "skills": ["ML models", "data pipelines", "Python"]},
+    {"career_id": "C005", "title": "Data Analyst", "related_subjects": ["Probability & Statistics", "Python Programming"], "skills": ["statistics", "visualization", "SQL"]}
+  ]
+}
